@@ -1,0 +1,18 @@
+
+email_cadastrado = "exemplo@email.com"
+senha_cadastrada = "senha123"
+
+
+while True:
+ 
+    email_digitado = input("Digite seu email: ")
+    senha_digitada = input("Digite sua senha: ")
+
+  
+    if email_digitado == email_cadastrado and senha_digitada == senha_cadastrada:
+        print("Acesso permitido! Bem-vindo.")
+        break  
+    else:
+        print("Email ou senha incorretos. Tente novamente.")
+
+
